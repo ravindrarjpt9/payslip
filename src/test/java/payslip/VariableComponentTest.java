@@ -15,7 +15,8 @@ public class VariableComponentTest {
       assertEquals(message,messageUtil.printVariable(),0.01);
    }
    
+   @Test
    public void testTrue(){
-	  assertTrue(true);
+	  assertTrue(false);
    }
 }
